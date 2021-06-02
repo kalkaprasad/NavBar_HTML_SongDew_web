@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SongDew</title>
+    <link rel="icon" href="icon/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/sidenavbar.css" />
+    <link rel="stylesheet" href="css/other.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  </head>
+  <body style="background: #f9f9f9">
+    <!-- This is the wrapper class -->
+    <div class="container-fluid">
+      <div class="nav">
+        <div>
+          <a href="#" id="sidebar-trigger">
+            <i class="fa fa-2x fa-bars"></i>
+          </a>
+        </div>
+        <div>
+          <img src="icon/logo.png" />
+        </div>
+        <div>
+          <img src="icon/user.png" />
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="sidebar">
+          <!-- left side bar  code  -->
+          <center><img src="icon/logo.png" class="logo" /></center>
+          <div class="leftmenurect">
+            <center>
+              <img src="icon/Vectorback.png" class="arrowicons" />
+            </center>
+          </div>
+          <div class="head-left-menu">
+            <img src="icon/Vector.png" style="margin-left: 20px" /><a
+              href="#"
+              style="color: black; margin-left: 20px"
+            >
+              Discover
+              <i class="fa fa-caret-down" style="margin-left: 100px"></i>
+            </a>
+          </div>
+          <ul>
+            <center>
+              <!-- side bar list item  -->
+              <li><a href="#">Opportunities </a></li>
+              <li><a href="#">Songs </a></li>
+              <li><a href="#">Videos </a></li>
+              <li><a href="#">Songdew TV </a></li>
+              <li><a href="#">Playlists </a></li>
+              <li><a href="#">Artists </a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Upload </a></li>
+            </center>
+            <center>
+              <p class="songdew-copyright">@SongDew All Rights Reserved</p>
+            </center>
+          </ul>
+        </div>
+        <div class="main_content">
+          <div class="header">
+            <div class="headerInside">
+              <div class="headerleftonmobile-view"></div>
+              <div class="homepage">
+                <a href="" style="margin-right: 13px; margin-left: 13px">
+                  <img src="./icon/Vectorback.png" class="#"
+                /></a>
+                <span>Back to Home page .</span>
+                <div class="headerlefticon">
+                  <img src="icon/u_search.png" class="headericon" />
+                  <img src="icon/u_comment-dots.png" class="headericon" />
+                  <img src="icon/Group 38.png" class="headericon" />
+                  <img src="icon/divider.png" class="headericon" />
+                  <img src="icon/user.png" />
+                </div>
+                <div class="SongTag">
+                  <span class="songsText">Songs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-trigger").click(function () {
+          $(".sidebar").toggleClass("active");
+        });
+      });
+    </script>
+
+    <script src="Js/dropdown.js"></script>
+  </body>
+</html>
